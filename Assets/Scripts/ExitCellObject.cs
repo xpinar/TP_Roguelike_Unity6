@@ -7,8 +7,8 @@ public class ExitCellObject : CellObject
 
     public override void Init(Vector2Int coord)
     {
-        base.Init(coord);
-        GameManager.Instance.BoardManager.SetCellTile(coord, EndTile);
+        //base.Init(coord);
+        //GameManager.Instance.BoardManager.SetCellTile(coord, EndTile);
     }
 
     public override void PlayerEntered()

@@ -5,9 +5,9 @@ public class FoodObject : CellObject
     public int AmountGranted = 10;
     public override void PlayerEntered()
     {
-        Destroy(gameObject);
+        // TODO : Détruire l'objet nourriture 
 
-        // TODO :Increase the player's food count
+        // TODO :  Appeler GameManager instance pour incrementer le compter de nourriture du joueur
 
         Debug.Log("Food increased");
     }

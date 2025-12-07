@@ -8,12 +8,12 @@ public class Enemy : CellObject
 
     private void Awake()
     {
-        // TODO
+        //GameManager.Instance.TurnManager.OnTick += TurnHappened;
     }
 
     private void OnDestroy()
     {
-        // TODO
+        //GameManager.Instance.TurnManager.OnTick -= TurnHappened;
     }
 
     public override void Init(Vector2Int coord)
@@ -24,14 +24,14 @@ public class Enemy : CellObject
 
     public override bool PlayerWantsToEnter()
     {
-        // TODO
+        // TODO 
         return false;
     }
 
 
     bool MoveTo(Vector2Int coord)
     {
-        // TODO
+        // TODO 
         return false;
     }
 

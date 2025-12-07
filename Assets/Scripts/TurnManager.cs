@@ -3,15 +3,15 @@ using UnityEngine;
 public class TurnManager
 {
     private int m_TurnCount;
-    //public event System.Action OnTick;
 
     public TurnManager()
     {
-        // TODO
+        // TODO : initialise m_TurnCount
     }
 
     public void Tick()
     {
-        // TODO
+        // TODO : incrémente m_TurnCount
     }
 }
+
